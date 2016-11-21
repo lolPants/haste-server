@@ -1,7 +1,7 @@
 body {
-	background: #002B36;
-	padding: 20px 50px;
-	margin: 0px;
+	background: #282c34 url(bg.png) center fixed;
+	padding: 20px 154px 20px 50px;
+	margin: 0;
 }
 
 /* textarea */
@@ -10,9 +10,9 @@ textarea {
 	background: transparent;
 	border: 0px;
 	color: #fff;
-	padding: 0px;
+	padding: 0;
 	width: 100%;
-	height: 100%;
+	height: calc(100% - 2px);
 	font-family: monospace;
 	outline: none;
 	resize: none;
@@ -42,8 +42,8 @@ textarea {
 	border: 0px;
 	outline: none;
 	font-size: 13px;
-	padding-right: 360px;
   overflow: inherit;
+  white-space: pre-wrap;
 }
 
 #box code {
@@ -55,21 +55,23 @@ textarea {
 
 #key {
 	position: fixed;
-	top: 0px;
-	right: 0px;
+	top: 8px;
+	right: 8px;
 	z-index: +1000; /* watch out */
 }
 
 #box1 {
 	padding: 5px;
 	text-align: center;
-	background: #00222b;
+	background: rgba(0,0,0,.30);
+	border-radius: 2px 2px 0 0;
 }
 
 #box2 {
-	background: #08323c;
+	background: rgba(0,0,0,.15);
 	font-size: 0px;
 	padding: 0px 5px;
+	border-radius: 0 0 2px 2px;
 }
 
 #box1 a.logo, #box1 a.logo:visited {
@@ -96,7 +98,6 @@ textarea {
 }
 
 #box2 .function.enabled:hover {
-	cursor: hand;
 	cursor: pointer;
 }
 
@@ -108,16 +109,18 @@ textarea {
 	bottom: 0px;
 	position: absolute;
 	margin: auto;
+	top: 42px;
 	left: 0px;
 	right: 0px;
 }
 
 #box3, #messages li {
-	background: #173e48;
+	background: rgba(0,0,0,.10);
 	font-family: Helvetica, sans-serif;
 	font-size: 12px;
 	line-height: 14px;
 	padding: 10px 15px;
+	border-radius: 2px;
 }
 
 #box3 .label, #messages li {
