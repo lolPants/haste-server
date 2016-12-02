@@ -160,3 +160,41 @@ textarea {
 	background:rgba(102,8,0,0.8);
 }
 
+@media (max-width: 500px) {
+	body {
+		padding: 20px 20px 57px 50px;
+	}
+	#key {
+		top: initial;
+  	bottom: 0px;
+  	right: 0px;
+  	width: 100%;
+	}
+	#key > #box1 {
+		display: none;
+		z-index: 0;
+	}
+	#key > #box2 {
+		display: flex;
+		justify-content: space-between;
+		padding: 0 50px;
+		z-index: 500;
+	}
+	#key > #box3 {
+		z-index: -1;
+		bottom: 37px; left: 0;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		position: fixed;
+		padding: 10px 0;
+	}
+	#key > #box3 > .label {
+		font-size: 1.1em;
+
+	}
+	#key > #box3 > .shortcut {
+		display: none;
+	}
+
+}
