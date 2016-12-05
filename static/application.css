@@ -1,5 +1,5 @@
 body {
-	background: #282c34 url(../img/bg.png) top left fixed;
+	background: #282c34 url(bg.png) top left fixed;
 	padding: 20px 154px 20px 50px;
 	margin: 0;
 }
@@ -76,7 +76,7 @@ textarea {
 
 #box1 a.logo, #box1 a.logo:visited {
 	display: inline-block;
-	background: url(../img/logo.png);
+	background: url(logo.png);
 	width: 126px;
 	height: 42px;
 }
@@ -86,7 +86,7 @@ textarea {
 }
 
 #box2 .function {
-	background: url(../img/function-icons.png);
+	background: url(function-icons.png);
 	width: 32px;
 	height: 37px;
 	display: inline-block;
