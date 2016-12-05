@@ -1,3 +1,8 @@
+#RodentBin - haste-server
+
+RodentBin is the Fuel Rats' in-house text uploader!
+It's open to everyone, but RodentBin is primarily focused towards the needs of The Mischief.
+
 # Haste
 
 Haste is an open-source pastebin software written in node.js, which is easily
@@ -29,9 +34,10 @@ STDOUT.  Check the README there for more details and usages.
 ## Installation
 
 1.  Download the package, and expand it
-2.  Explore the settings inside of config.js, but the defaults should be good
-3.  `npm install`
-4.  `npm start`
+2.  Copy config.template.js and rename the copy to "config.js". This is so those who pull directly from the repo don't overwrite their config.js
+3.  Explore the settings inside of config.js, but the defaults should be good
+4.  `npm install`
+5.  `npm start`
 
 ## Settings
 
