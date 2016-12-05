@@ -1,5 +1,5 @@
+// Copy this file and rename it to "config.js" before using it.
 {
-
   "host": "0.0.0.0",
   "port": 7777,
 
@@ -43,5 +43,4 @@
   "documents": {
     "about": "./about.md"
   }
-
 }
