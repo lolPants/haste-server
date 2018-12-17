@@ -1,7 +1,4 @@
-#RodentBin - haste-server
-
-RodentBin is the Fuel Rats' in-house text uploader!
-It's open to everyone, but RodentBin is primarily focused towards the needs of The Mischief.
+#Hastebin - haste-server
 
 # Haste
 
