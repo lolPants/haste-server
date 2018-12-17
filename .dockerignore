@@ -1,0 +1,9 @@
+config.template.js
+.eslintignore
+.eslintrc.json
+README.md
+node_modules
+npm-debug.log
+.git
+.gitignore
+LICENSE
